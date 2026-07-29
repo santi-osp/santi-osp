@@ -45,21 +45,6 @@ He desarrollado soluciones que integran:
 
 > Parte de mi experiencia corresponde a aplicaciones empresariales privadas. Por confidencialidad, no publico código, credenciales ni información interna de las compañías. En este perfil comparto proyectos personales y demostraciones técnicas independientes.
 
-## Proyecto destacado
-
-### Web de Bolsillo
-
-Servicio web orientado a crear páginas profesionales para pequeños negocios.
-
-- Desarrollado con Astro, React, Tailwind CSS y Framer Motion.
-- Desplegado mediante Cloudflare Pages.
-- SEO técnico, datos estructurados y diseño responsive.
-- Integración con WhatsApp.
-- Lighthouse móvil entre 98 y 100 en mediciones iniciales.
-- LCP aproximado de 1,66 segundos en una medición inicial.
-
-[Visitar Web de Bolsillo](https://tuwebdebolsillo.com)
-
 ## Actualmente
 
 - Fortaleciendo mis conocimientos en arquitectura de software y desarrollo con .NET.
