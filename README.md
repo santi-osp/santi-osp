@@ -54,9 +54,9 @@ My technical capabilities are structured around production reliability, clean co
 | Domain | Core Technologies & Methodologies |
 |---|---|
 | **Backend & APIs** | **C#**, **.NET 8 / 9 / 10**, ASP.NET Core, Entity Framework Core, RESTful APIs, Clean Architecture, Dependency Injection |
-| **Frontend Engineering** | **Angular 19**, TypeScript, Reactive Forms, Component-Driven UI, JavaScript (ESNext), HTML5 / CSS3, Tailwind CSS, Astro, React |
+| **Frontend Engineering** | **Angular 19 / 20 / 21**, TypeScript, Reactive Forms, Signals, Component-Driven UI, HTML5 / CSS3, Tailwind CSS, Astro, React 19 |
 | **Cloud & DevOps** | **Azure Functions**, Azure App Service, Azure DevOps, Azure Boards, Azure Test Plans, Azure DevOps REST API, CI/CD pipelines, Git / GitHub |
-| **Data & Databases** | **SQL Server**, Stored Procedures, Execution Plan & Query Optimization, Relational Modeling, PostgreSQL (Neon) |
+| **Data & Databases** | **SQL Server**, Stored Procedures, Execution Plan & Query Optimization, Relational Modeling, PostgreSQL (Neon / Supabase), SQLite |
 | **Enterprise AI & Automation** | Custom AI Agent Workflows, Prompt Engineering, Azure-n8n Integration Endpoints, Requirements Quality & Edge-Case Analyzers |
 | **Testing & Quality Assurance** | Requirement-based Test Suites, Test Case Authoring, Traceability Matrices, xUnit, Playwright E2E |
 
@@ -97,12 +97,12 @@ My technical capabilities are structured around production reliability, clean co
 
 ## 04 / FEATURED PROJECTS
 
-A selection of open-source architectures, full-stack systems, and engineering tools:
+A curated selection of production-grade architectures, enterprise monorepos, and developer utilities:
 
 ### [Codex Config Manager](https://github.com/santi-osp/codex-config-manager)
 *Retro-pixel desktop control plane and telemetry monitor for OpenAI Codex and OmniRoute on Windows.*
-- **Architecture:** Node.js server engine paired with lightweight local web interface, Windows VBS launchers, and granular TOML configuration engine.
-- **Engineering Highlights:** Custom TOML parser with comment and whitespace preservation, multi-process lifecycle management, biometric security lock, bidirectional telemetry streaming, and automated E2E test suites with Playwright.
+- **Architecture:** Node.js server engine paired with lightweight single-file vanilla UI, Windows VBS launchers, and surgical TOML engine.
+- **Engineering Highlights:** Custom AST-preserving TOML parser, multi-process lifecycle supervision, telemetry streaming, atomic disk writes, rolling backups, and automated Playwright E2E suites.
 - **Stack:** JavaScript, Node.js, HTML5/CSS3, Playwright, Windows PowerShell.
 
 ---
@@ -115,19 +115,35 @@ A selection of open-source architectures, full-stack systems, and engineering to
 
 ---
 
-### [Web de Bolsillo](https://tuwebdebolsillo.com)
-*Commercial digital platform engineered for high-performance responsive web presence.*
-- **Architecture:** Static-first architecture deployed on Cloudflare Pages edge network, featuring technical SEO, JSON-LD structured data, and responsive layouts.
-- **Engineering Highlights:** Achieved **98–100 Google Lighthouse mobile scores** and an initial **Largest Contentful Paint (LCP) of ~1.66s**.
-- **Stack:** Astro, React, Tailwind CSS, Framer Motion, Cloudflare Pages.
+### [Devoluciones & Garantías — Backend & Frontend](https://github.com/santi-osp/Sistema-de-Devoluciones-BackEnd)
+*Clean Architecture e-commerce post-sales and warranties engine with role-based Angular portal.*
+- **Architecture:** Hexagonal architecture implementing 5 GoF design patterns (State, Strategy, Observer, Builder, Facade).
+- **Engineering Highlights:** Supabase PostgreSQL & Storage integration for photographic claims, JWT RBAC route guards for Clients, Analysts, and Suppliers.
+- **Stack:** .NET 8 Web API, C#, Entity Framework Core, Supabase, Angular 20 Standalone, Reactive Forms.
 
 ---
 
-### [DividirVideosNotebookLM](https://github.com/santi-osp/DividirVideosNotebookLM)
+### [Web de Bolsillo 2.0](https://tuwebdebolsillo.com)
+*Commercial digital platform engineered for high-performance responsive web presence.*
+- **Architecture:** Islands architecture with Astro and React 19 partial hydration, Cal.com live booking integration, and Motion animations.
+- **Engineering Highlights:** Achieved **100/100 Core Web Vitals across all Lighthouse metrics** and an initial LCP under 0.3s.
+- **Stack:** Astro, React 19, TypeScript, Motion v12, Cal.com API, Cloudflare Pages.
+
+---
+
+### [DividirVideosNotebookLM (Splitly 2.0)](https://github.com/santi-osp/DividirVideosNotebookLM)
 *In-browser client-side video processing utility designed for NotebookLM duration and payload constraints.*
-- **Architecture:** 100% client-side execution utilizing WebAssembly-compiled FFmpeg.
-- **Engineering Highlights:** Zero server uploads—processes high-definition video chunks directly inside the user's browser memory, guaranteeing total privacy and immediate chunk downloads.
+- **Architecture:** 100% client-side execution utilizing WebAssembly-compiled FFmpeg (`@ffmpeg/ffmpeg`).
+- **Engineering Highlights:** Zero server uploads—processes high-definition video chunks and compact M4A audio extractions directly inside browser memory with live progress tracking.
 - **Stack:** JavaScript, FFmpeg WebAssembly, Web Workers, HTML5 File API.
+
+---
+
+### [SuperMarket FrontEnd](https://github.com/santi-osp/superMarketFrontEnd)
+*Enterprise supermarket inventory, billing, and supplier management SPA.*
+- **Architecture:** Angular 20 standalone client consuming FastAPI RESTful services via JWT Bearer authentication.
+- **Engineering Highlights:** Reactive signal-based state management, Angular Material components, protected routing guards, and live production deployment.
+- **Stack:** Angular 20, Angular Material, TypeScript, FastAPI, Signals.
 
 <br/>
 
